@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./js/app.js"></script>
+    <script src="./js/button.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
@@ -38,7 +39,7 @@
 
     <div class="grid place-items-center h-screen">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8"
+            <img class="w-full" src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyJTIwZW5naW5lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 pt-3">Engine Location</div>
@@ -46,7 +47,7 @@
                     <section>
                         <select class="selectColor" id="uilocation">
                         </select>
-                      </section>
+                    </section>
                 </div>
             </div>
         </div>
@@ -54,15 +55,15 @@
 
     <div class="grid place-items-center h-screen">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8"
+            <img class="w-full" src="https://images.unsplash.com/photo-1644246905181-c3753e9a82bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FyJTIwdGFuayUyMGZ1ZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
                 alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 pt-3">Fuel Tank Capacity</div>
                 <div>
                     <section>
-                        <select class="selectColor" id="uilocation">
-                        </select>
-                      </section>
+                        <input type="text" class="border-gray-500 border-1 text-center rounded-md p-2 my-4 shadow-lg"
+                            id="uilocation">
+                    </section>
                 </div>
             </div>
         </div>
@@ -70,15 +71,15 @@
 
     <div class="grid place-items-center h-screen">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8"
+            <img class="w-full" src="https://images.unsplash.com/photo-1602853175733-5ad62dc6a2c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FyJTIwdGFuayUyMGZ1ZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
                 alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 pt-3">Fuel Type</div>
                 <div>
                     <section>
-                        <select class="selectColor" id="uilocation">
+                        <select class="selectColor" id="fuel_type">
                         </select>
-                      </section>
+                    </section>
                 </div>
             </div>
         </div>
@@ -86,15 +87,16 @@
 
     <div class="grid place-items-center h-screen">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8"
+            <img class="w-full" src="https://images.unsplash.com/photo-1550985543-49bee3167284?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cnVsZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
                 alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 pt-3">Height</div>
                 <div>
                     <section>
-                        <select class="selectColor" id="uilocation">
+                        <input type="text" class="border-gray-500 border-1 text-center rounded-md p-2 my-4 shadow-lg"
+                            id="uilocation">
                         </select>
-                      </section>
+                    </section>
                 </div>
             </div>
         </div>
@@ -102,15 +104,16 @@
 
     <div class="grid place-items-center h-screen">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8"
+            <img class="w-full" src="https://images.unsplash.com/photo-1611077544775-6e72542a206f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cnVsZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
                 alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 pt-3">Length</div>
                 <div>
                     <section>
-                        <select class="selectColor" id="uilocation">
-                        </select>
-                      </section>
+                        <input type="text" class="border-gray-500 border-1 text-center rounded-md p-2 my-4 shadow-lg"
+                            id="uilocation">
+
+                    </section>
                 </div>
             </div>
         </div>
@@ -118,15 +121,16 @@
 
     <div class="grid place-items-center h-screen">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8"
+            <img class="w-full" src="https://images.unsplash.com/photo-1502043150060-b01aa3030556?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cnVsZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
                 alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 pt-3">Width</div>
                 <div>
                     <section>
-                        <select class="selectColor" id="uilocation">
-                        </select>
-                      </section>
+                        <input type="text" class="border-gray-500 border-1 text-center rounded-md p-2 my-4 shadow-lg"
+                            id="uilocation">
+
+                    </section>
                 </div>
             </div>
         </div>
@@ -134,15 +138,16 @@
 
     <div class="grid place-items-center h-screen">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8"
+            <img class="w-full" src="https://images.unsplash.com/photo-1490902931801-d6f80ca94fe4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FyJTIwbWlsYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 pt-3">City Milage</div>
                 <div>
                     <section>
-                        <select class="selectColor" id="uilocation">
-                        </select>
-                      </section>
+                        <input type="text" class="border-gray-500 border-1 text-center rounded-md p-2 my-4 shadow-lg"
+                            id="uilocation">
+
+                    </section>
                 </div>
             </div>
         </div>
@@ -150,15 +155,16 @@
 
     <div class="grid place-items-center h-screen">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8"
+            <img class="w-full" src="https://media.istockphoto.com/photos/businessman-driving-to-work-picture-id906197584?b=1&k=20&m=906197584&s=170667a&w=0&h=5SPNcCkRRR84OtvqkTrpmsxVWs4-QxSJWfh3WDGqNsw="
                 alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 pt-3">Gears</div>
                 <div>
                     <section>
-                        <select class="selectColor" id="uilocation">
-                        </select>
-                      </section>
+                        <input type="number" class="border-gray-500 border-1 text-center rounded-md p-2 my-4 shadow-lg"
+                            id="uilocation">
+
+                    </section>
                 </div>
             </div>
         </div>
@@ -166,15 +172,15 @@
 
     <div class="grid place-items-center h-screen">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8"
+            <img class="w-full" src="https://media.istockphoto.com/photos/odometer-picture-id183304580?b=1&k=20&m=183304580&s=170667a&w=0&h=Xi7A4TVh4Gw-8Km3bBrRuvyyKwzPOlmNOWjS3uEM8VY="
                 alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 pt-3">Odometer</div>
                 <div>
                     <section>
-                        <select class="selectColor" id="uilocation">
+                        <select class="selectColor" id="odometer">
                         </select>
-                      </section>
+                    </section>
                 </div>
             </div>
         </div>
@@ -182,15 +188,15 @@
 
     <div class="grid place-items-center h-screen">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8"
+            <img class="w-full" src="https://images.unsplash.com/photo-1498887960847-2a5e46312788?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyJTIwbWlsYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 pt-3">Speedometer</div>
                 <div>
                     <section>
-                        <select class="selectColor" id="uilocation">
+                        <select class="selectColor" id="speedometer">
                         </select>
-                      </section>
+                    </section>
                 </div>
             </div>
         </div>
@@ -198,15 +204,15 @@
 
     <div class="grid place-items-center h-screen">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8"
+            <img class="w-full" src="https://images.unsplash.com/photo-1543520670-88499859302c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FyJTIwc2VhdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500"
                 alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 pt-3">Seating Material</div>
                 <div>
                     <section>
-                        <select class="selectColor" id="uilocation">
+                        <select class="selectColor" id="seats_material">
                         </select>
-                      </section>
+                    </section>
                 </div>
             </div>
         </div>
@@ -214,15 +220,14 @@
 
     <div class="grid place-items-center h-screen">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8"
+            <img class="w-full" src="https://images.unsplash.com/photo-1602794351477-4b0a974fd386?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyJTIwc2VhdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500"
                 alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 pt-3">Seating Capacity</div>
                 <div>
                     <section>
-                        <select class="selectColor" id="uilocation">
-                        </select>
-                      </section>
+                        <input type="number" class="border-gray-500 border-1 text-center rounded-md p-2 my-4 shadow-lg"
+                            id="uilocation">
                 </div>
             </div>
         </div>
@@ -230,15 +235,15 @@
 
     <div class="grid place-items-center h-screen">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8"
+            <img class="w-full" src="https://images.unsplash.com/photo-1432462770865-65b70566d673?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNhciUyMGF1ZGlvc3lzdGVtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 pt-3">Audiosystem</div>
                 <div>
                     <section>
-                        <select class="selectColor" id="uilocation">
+                        <select class="selectColor" id="audiosystem">
                         </select>
-                      </section>
+                    </section>
                 </div>
             </div>
         </div>
@@ -246,19 +251,31 @@
 
     <div class="grid place-items-center h-screen">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8"
+            <img class="w-full" src="https://media.istockphoto.com/photos/crash-tesh-dummy-in-car-picture-id1209793467?b=1&k=20&m=1209793467&s=170667a&w=0&h=0aacX0EoFndZv-w-j5BQN9iV48o3mZzfgpbsjWQ4iLo="
                 alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 pt-3">Airbags</div>
                 <div>
                     <section>
-                        <select class="selectColor" id="uilocation">
-                        </select>
-                      </section>
+                        <input type="number" class="border-gray-500 border-1 text-center rounded-md p-2 my-4 shadow-lg"
+                            id="uilocation">
+                    </section>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- submit button -->
+
+    
+          <div class="md:h-40 py-20 md:py-0 flex justify-center items-center">
+            <div class="md:space-x-20 space-y-10 md:space-y-0">
+              <button class="py-3 px-6 text-white rounded-lg bg-green-400 shadow-lg block md:inline-block">Predict Price</button>
+            </div>
+          </div>
+
+    <!-- submit buton ends here -->
+
 
 </body>
 
