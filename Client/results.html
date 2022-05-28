@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
@@ -14,6 +15,9 @@
             font-family: 'Open Sans', sans-serif;
         }
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"
+        integrity="sha512-vRqhAr2wsn+/cSsyz80psBbCcqzz2GTuhGk3bq3dAyytz4J/8XwFqMjiAGFBj+WM95lHBJ9cDf87T3P8yMrY7A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body class="bg-gray-200">
@@ -55,38 +59,15 @@
     <!-- This example requires Tailwind CSS v2.0+ -->
     <div class=" mx-5 lg:flex lg:items-center lg:justify-between">
         <div class="flex-1 min-w-0">
-            <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate">Some Car Recommendations For You</h2>
+            <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate">Some Car Recommendations For
+                You</h2>
         </div>
     </div>
 
 
     <!-- card design -->
-    <div class="flex flex-col justify-center h-screen">
-        <div
-            class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-white">
-            <div class="w-full md:bg-white flex flex-col space-y-2 p-3">
-                <div class="flex justify-between item-center">
-                    <p class="text-gray-500 font-medium hidden md:block">Displacement</p>
-                    <div class="flex items-center">
-                        <p class="text-gray-600 font-bold text-sm ml-1">
-                            City Milage
-                            <span class="text-gray-500 font-normal">(Km /Litre)</span>
-                        </p>
-                    </div>
-                    <div class="">
 
-                    </div>
-                    <div class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800 hidden md:block">
-                        Kerb Weight</div>
-                </div>
-                <h3 class="font-black text-gray-800 md:text-3xl text-xl">Name</h3>
-                <p class="md:text-lg text-gray-500 text-base">The best kept secret of The Bahamas is the country’s sheer
-                    size and diversity. With 16 major islands, The Bahamas is an unmatched destination</p>
-                <p class="text-xl font-black text-gray-800">
-                    price
-                </p>
-            </div>
-        </div>
+    <div id="resultcard">
     </div>
 
 </body>
