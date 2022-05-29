@@ -78,7 +78,7 @@ def load_saved_artifacts() :
     global __data_columns
     global __model
 
-    with open("Server/artifacts/columns.json" , 'r') as f:
+    with open("artifacts/columns.json" , 'r') as f:
         __data_columns = json.load(f)['data_columns']
         __engine_location = __data_columns[8:14]
         __fuel_type = __data_columns[16:21]
@@ -89,7 +89,7 @@ def load_saved_artifacts() :
 
     global __model
 
-    with open("Server/artifacts/model.pickle" , 'rb') as f:
+    with open("artifacts/model.pickle" , 'rb') as f:
         __model = pickle.load(f)
 
 if __name__ == '__main__' :

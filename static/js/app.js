@@ -17,8 +17,8 @@
     var audiosystem = document.getElementById("audiosystem");
     var airbags = document.getElementById("airbags");
   
-    // var url = "http://127.0.0.1:5000/predict"; //Use this if you are NOT using nginx which is first 7 tutorials
-    var url = "/api/predict"; // Use this if  you are using nginx. i.e tutorial 8 and onwards
+    var url = "http://127.0.0.1:5000/predict"; //Use this if you are NOT using nginx which is first 7 tutorials
+    // var url = "/api/predict"; // Use this if  you are using nginx. i.e tutorial 8 and onwards
   
     $.post(url, {
 

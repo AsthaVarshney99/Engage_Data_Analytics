@@ -3,7 +3,7 @@ var params = new URLSearchParams(window.location.search),
 
 document.getElementById("result").innerHTML = "Rs. " + first;
 
-fetch("./js/csvjson.json").then(function(resp){
+fetch("static\js\csvjson").then(function(resp){
     return resp.json();
 })
 .then(function(data){
